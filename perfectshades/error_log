@@ -1,0 +1,25 @@
+[01-Nov-2016 20:24:11 America/New_York] PHP Fatal error:  Cannot redeclare isExistedEmail() (previously declared in /home/lehaoorg/public_html/perfectshades/register.php:38) in /home/lehaoorg/public_html/perfectshades/register.php on line 47
+[01-Nov-2016 20:32:28 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Database' not found in /home/lehaoorg/public_html/perfectshades/database_test.php:31
+Stack trace:
+#0 /home/lehaoorg/public_html/perfectshades/database_test.php(45): DatabaseTest::getAll('users')
+#1 {main}
+  thrown in /home/lehaoorg/public_html/perfectshades/database_test.php on line 31
+[01-Nov-2016 20:36:14 America/New_York] PHP Fatal error:  Cannot redeclare isExistedEmail() (previously declared in /home/lehaoorg/public_html/perfectshades/register.php:38) in /home/lehaoorg/public_html/perfectshades/register.php on line 47
+[01-Nov-2016 20:37:51 America/New_York] PHP Fatal error:  Cannot redeclare isExistedEmail() (previously declared in /home/lehaoorg/public_html/perfectshades/register.php:38) in /home/lehaoorg/public_html/perfectshades/register.php on line 47
+[01-Nov-2016 20:38:51 America/New_York] PHP Fatal error:  Cannot redeclare isExistedEmail() (previously declared in /home/lehaoorg/public_html/perfectshades/register.php:38) in /home/lehaoorg/public_html/perfectshades/register.php on line 47
+[01-Nov-2016 20:41:27 America/New_York] PHP Fatal error:  Cannot redeclare initFormData() (previously declared in /home/lehaoorg/public_html/perfectshades/form_processing.php:89) in /home/lehaoorg/public_html/perfectshades/form_processing.php on line 95
+[01-Nov-2016 20:41:29 America/New_York] PHP Fatal error:  Cannot redeclare initFormData() (previously declared in /home/lehaoorg/public_html/perfectshades/form_processing.php:89) in /home/lehaoorg/public_html/perfectshades/form_processing.php on line 95
+[01-Nov-2016 20:41:30 America/New_York] PHP Fatal error:  Cannot redeclare initFormData() (previously declared in /home/lehaoorg/public_html/perfectshades/form_processing.php:89) in /home/lehaoorg/public_html/perfectshades/form_processing.php on line 95
+[01-Nov-2016 20:50:49 America/New_York] PHP Fatal error:  Cannot redeclare initFormData() (previously declared in /home/lehaoorg/public_html/perfectshades/form_processing.php:89) in /home/lehaoorg/public_html/perfectshades/form_processing.php on line 95
+[01-Nov-2016 20:50:50 America/New_York] PHP Fatal error:  Cannot redeclare initFormData() (previously declared in /home/lehaoorg/public_html/perfectshades/form_processing.php:89) in /home/lehaoorg/public_html/perfectshades/form_processing.php on line 95
+[01-Nov-2016 20:53:45 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/lehaoorg/public_html/perfectshades/index.php on line 25
+[01-Nov-2016 20:53:51 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/lehaoorg/public_html/perfectshades/index.php on line 25
+[01-Nov-2016 20:54:28 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/lehaoorg/public_html/perfectshades/index.php on line 25
+[01-Nov-2016 20:54:30 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/lehaoorg/public_html/perfectshades/index.php on line 25
+[01-Nov-2016 20:54:31 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/lehaoorg/public_html/perfectshades/index.php on line 25
+[01-Nov-2016 20:54:32 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/lehaoorg/public_html/perfectshades/index.php on line 25
+[01-Nov-2016 20:54:33 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/lehaoorg/public_html/perfectshades/index.php on line 25
+[01-Nov-2016 20:54:34 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/lehaoorg/public_html/perfectshades/index.php on line 25
+[01-Nov-2016 20:54:36 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/lehaoorg/public_html/perfectshades/index.php on line 25
+[01-Nov-2016 20:54:38 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/lehaoorg/public_html/perfectshades/index.php on line 25
+[01-Nov-2016 20:55:10 America/New_York] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/lehaoorg/public_html/perfectshades/index.php on line 25

@@ -1,0 +1,5 @@
+To edit live database records:
+
+www.colesiegel.com/phpmyadmin
+username: lehaoorg_humber
+password: 123Ravinder

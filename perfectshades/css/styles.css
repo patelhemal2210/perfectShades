@@ -1,0 +1,364 @@
+.errorMsg {
+	font-size:20px; 
+	margin-top:20px; 
+	padding:20px; 
+	margin-bottom:20px; 
+}
+
+/* code to change mobile navigation breakpoint to ensure that header does not break on tablets */ 
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+#navTitle {
+	font-weight:bold;
+	margin-right:20px;
+	color: cornflowerblue;
+	font-size: 20px; 
+}
+
+#homeMarketing{
+	margin-top: 30px; 
+}
+
+p {
+	font-size: 16px; 
+}
+
+/* divide sections of the page */ 
+
+h1.sectionTitle {
+	margin-bottom: 20px; 
+}
+
+.contactFormPrompt {
+	margin-bottom: 20px; 
+}
+
+.subSection {
+	margin-top: 60px; 
+}
+
+.sectionDivider {
+	width: 70%; 
+	color: #777777; 
+    border-top: solid 1px;
+	margin-top: 140px;
+	margin-bottom: 50px; 
+}
+
+
+.finalDivider {
+	width: 70%; 
+	color: #777777; 
+    border-top: solid 1px;
+	margin-top: 200px;
+	margin-bottom: 0px; 
+}
+
+/* used for images to display our technologies */ 
+
+.img-centered {
+    margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 10px; 
+}
+
+/* ensures nav bar does not cover banner on mobile devices */ 
+
+body { 
+    padding-top: 50px; 
+}
+
+/* carousel styles for the homepage */ 
+
+.carousel .item {
+    width: 100%; /*slider width*/
+    min-height: 100%; /*slider height*/
+	margin: auto; 
+}
+
+.section {
+	margin-bottom: 2000px; 
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+.aboutSection {
+	margin-top: 120px; 
+}
+
+.homeLinks {
+	margin-top: 10px; 
+}
+
+
+/* check if this is still used? */ 
+/* UPDATE WEBSITE WITH SPACED OUT FRONTPAGE SMALL BUTTONS  */ 
+
+/* used to make map responsive for contact section */ 
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+	max-width: 500px; 
+	max-height: 350px; 
+    height: 100%;
+}
+
+/* THIS IS FOR THE COMMENTS PAGE */
+
+#wrap{
+	border: 1px solid lightgray;
+	alignment-adjust: central;
+	width: 1000px;
+	margin-left: 50px;
+	margin-top: 10px;
+	box-shadow: 0 5px 0 #e6e6e6;
+	padding-bottom: 50px;
+
+}
+
+h3.heading{
+	margin-left: 20px;
+	background-color: #fafafa;
+	font-size: 25px;
+	float: left;
+	padding-left: 40px;
+	position: relative;
+	width: 405px;
+	height: 40px;
+	padding-top: 5px;
+
+}
+
+#upper_blank{
+	border-bottom: 7px solid steelblue;
+	margin-top: 40px;
+	margin-right: 485px;
+	width: 570px;
+	padding-right: 480px;
+}
+
+#name{
+	margin-left: 20px;
+	box-shadow: 0 2px 0 #e6e6e6;
+	height: 40px;
+	padding-left: 10px;
+	width: 500px;
+}
+#email{
+	margin-left: 20px;
+	box-shadow: 0 2px 0 #e6e6e6;
+	height: 40px;
+	padding-left: 10px;
+	width: 500px;
+}
+#url{
+	margin-left: 20px;
+	box-shadow: 0 2px 0 #e6e6e6;
+	height: 40px;
+	padding-left: 10px;
+	width: 500px;
+}
+#comment{
+	margin-left: 20px;
+	box-shadow: 0 2px 0 #e6e6e6;
+	height: 40px;
+	padding-left: 10px;
+	width: 650px;
+	height: 200px;
+}
+#commentSubmit{
+	margin-left: 20px;
+	width: 250px;
+	height: 55px;
+	color: white;
+	font-size: 20px;
+	background-color: #2c95dc;
+	box-shadow: 0 3px 0 #09466f;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	border-radius: 5px;
+}
+#commentSubmit:hover {
+	background-color: #09466f;
+
+}
+
+h1.title{
+	color: lightseagreen;
+	text-align: center;
+}
+
+h3.second_heading{
+	margin-left: 0;
+	margin-top: 30px;
+	font-size: 20px;
+	width: 250px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 55px;
+
+}
+
+p.disclaimer{
+	font-size: 18px;
+	color: gray;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+p.notify{
+	 font-size: 18px;
+	 padding-top: 20px;
+ }
+
+#rating{
+	font-size: 18px;
+	padding-top: 20px;
+}
+#middle{
+	border: 1px solid lightgray;
+	width: 1000px;
+	height: 200px;
+	background-color: lightyellow;
+	margin-left: 45px;
+	text-align: left;
+	margin-top: 10px;
+	box-shadow: 0 2px 0 lightgray;
+}
+.blank{
+	border-bottom: 7px solid steelblue;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 100px;
+	width: 800px;
+}
+
+#inner_reply{
+
+	margin-left: 800px;
+	margin-top: 160px;
+	width: 100px;
+	height: 30px;
+	background-color: #2c95dc;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	border-radius: 18px;
+}
+
+/* END OF CSS FOR COMMENTS PAGE */
+
+/*START of CSS for face_upload*/
+
+.upload-drop-zone {
+	height: 200px;
+	border-width: 2px;
+	margin-bottom: 20px;
+}
+
+
+.upload-drop-zone {
+	color: #ccc;
+	border-style: dashed;
+	border-color: #ccc;
+	line-height: 200px;
+	text-align: center
+}
+.upload-drop-zone.drop {
+	color: #222;
+	border-color: #222;
+}
+
+/*end*/
+
+/*START of CSS for Shades display*/
+
+ul.products li {
+	width: 250px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#wrapper {
+	padding-left: 200px;
+}
+
+#sidebar-wrapper {
+	margin-left: -250px;
+	left: 250px;
+	width: 200px;
+	background: #e9e9e9;
+	position: fixed;
+	height: 92%;
+	overflow-y: scroll;
+}
+
+#page-content-wrapper {
+	width: 100%;
+}
+
+.sidebar-nav {
+	position: absolute;
+	top: 0;
+	width: 50px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*end*/

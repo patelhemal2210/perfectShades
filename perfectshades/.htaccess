@@ -1,0 +1,10 @@
+<IfModule mod_php5.c>
+php_value max_execution_time 300
+</IfModule>
+
+ErrorDocument 500     /500.shtml
+ErrorDocument 400     /400.shtml
+ErrorDocument 401     /401.shtml
+ErrorDocument 403     /403.shtml
+ErrorDocument 404     /404.shtml
+
